@@ -74,8 +74,8 @@ p {
     border-radius: 10px;
     width: 60%;
     position: absolute;
-    left: 90%;
-    transform: translateX(-90%);
+    left: 85%;
+    transform: translateX(-85%);
     bottom: 65%;
   }
 
