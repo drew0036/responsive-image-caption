@@ -26,20 +26,15 @@ body {
   width: 100%;
 }
 
-.text {
-  margin: 0;
+.img-content {
   background-color: #e2e2e2;
   padding: 1.3rem;
 }
 
-h2 {
+.img-content h2 {
   font-family: "Denk One", sans-serif;
   font-size: 1.5rem;
   margin: 0;
-}
-
-p {
-  font-family: Georgia, serif;
 }
 
 @media only screen and (min-width: 25em) {
@@ -58,25 +53,18 @@ p {
     line-height: 1.4;
   }
 
-  .section {
-    display: flex;
-    width: 100%;
-  }
-
-  img {
-    display: flex;
+  .banner {
     position: relative;
   }
 
-  .text {
+  .img-content {
+    position: absolute;
     color: #fff;
     background-color: rgba(0, 0, 0, .3);
-    border-radius: 10px;
+    border-radius: 1em;
     width: 60%;
-    position: absolute;
-    left: 85%;
-    transform: translateX(-85%);
-    bottom: 65%;
+    bottom: 1rem;
+    right: 1rem;
   }
 
 }
@@ -86,6 +74,7 @@ p {
   html {
     font-size: 120%;
     line-height: 1.5;
+    margin: 0 0 1.5;
   }
 
 }
